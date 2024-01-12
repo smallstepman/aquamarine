@@ -164,6 +164,7 @@ const MERMAID_INIT_SCRIPT: &str = r#"
          : 'default';
 
       mermaid.initialize({
+	'securityLevel': 'loose',
         'startOnLoad':'true',
         'theme': amrn_mermaid_theme,
         'logLevel': 3 });
